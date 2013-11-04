@@ -4,9 +4,11 @@ MVCObject
 A real-world example of building an MVC based JavaScript application, to help solidify the ideas of the Model View Controller pattern. This is an fork for [mvcobject-js](https://code.google.com/p/mvcobject-js/)
 
 # Define our application's components
-*Model - Takes care of all back-end data. Receives messages, broadcasts messages, registers new users when they join.
-*View - Handles all display logic. Displays new messages, gives our users the interface to write new messages.
-*Controller - Facilitates communication between the Model and the View. Interprets actions from users and passes them to the Model and/or the View.
++ Model - Takes care of all back-end data. Receives messages, broadcasts messages, registers new users when they join.
+
++ View - Handles all display logic. Displays new messages, gives our users the interface to write new messages.
+
++ Controller - Facilitates communication between the Model and the View. Interprets actions from users and passes them to the Model and/or the View.
 
 # Introduction
 After finding the Google Maps API v3 MVCObject an extremely useful tool when building MVC based JavaScript apps, MVCObject-js was written to replicate it's functionality in a standalone script - you no longer need to download the whole Google Maps API just to use MVCObject.
